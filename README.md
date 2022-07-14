@@ -10,4 +10,8 @@ and ofc add your token in bot.login
 
 
 Video of it:
-https://zslotth.com/vids.mp4
+
+
+
+https://user-images.githubusercontent.com/80789840/178920167-8ce601da-b4df-4eec-b259-7ca6210d579d.mp4
+
