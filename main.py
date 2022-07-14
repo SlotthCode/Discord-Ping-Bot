@@ -1,23 +1,9 @@
-
 from tokenize import Name
 import discord, time
 from discord.ext import commands
 from discord.utils import get
 import asyncio
-from config import token
-from config import pingrole
-from config import channel1
-from config import channel2
-from config import channel3
-from config import channel4
-from config import channel5
-from config import channel6
-from config import channel7
-from config import channel8
-from config import channel9
-from config import channel10
-
-
+#made by slotth
 
 bot = commands.Bot(command_prefix="!")
 bot.remove_command('help')
@@ -34,17 +20,19 @@ async def on_command_error(ctx, error):
 
 @bot.command()
 async def pingpeople(ctx):
-    channel = bot.get_channel(channel1)
-    channel2 = bot.get_channel(channel2)
-    channel3 = bot.get_channel(channel3)
-    channel4 = bot.get_channel(channel4)
-    channel5 = bot.get_channel(channel5)
-    channel6 = bot.get_channel(channel6)
-    channel7 = bot.get_channel(channel7)
-    channel8 = bot.get_channel(channel8)
-    channel9 = bot.get_channel(channel9)
-    channel10 = bot.get_channel(channel10)
-    ping = discord.utils.get(ctx.guild.roles, id=pingrole)
+    #Don't use "" in the channel do this ex. (937545678980)
+    channel = bot.get_channel(channel id here)
+    channel2 = bot.get_channel(channel id here)
+    channel3 = bot.get_channel(channel id here)
+    channel4 = bot.get_channel(channel id here)
+    channel5 = bot.get_channel(channel id here)
+    channel6 = bot.get_channel(channel id here)
+    channel7 = bot.get_channel(channel id here)
+    channel8 = bot.get_channel(Channel id here)
+    channel9 = bot.get_channel(channel id here)
+    channel10 = bot.get_channel(channel id here)
+    #dont use "" do this ex. id=192038121
+    ping = discord.utils.get(ctx.guild.roles, id=role ping id here)
     while True:
         await channel.send(f"{ping.mention}")
         await asyncio.sleep(0.3)
@@ -75,4 +63,4 @@ async def help(ctx):
     await ctx.send("Help, Ping, Pingpeople")
 
 
-bot.run(token)
+bot.run("token here")
