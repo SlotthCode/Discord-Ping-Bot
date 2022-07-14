@@ -4,7 +4,7 @@ Discord Ping Bot!
 
 it pings 10 channels and loops every 15 sec
 
-
+want to add 120 channels lol
 
 
 IN MAIN.PY ADD YOUR CHANNEL IDs ON LINE 24-33
